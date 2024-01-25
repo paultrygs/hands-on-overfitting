@@ -26,3 +26,15 @@ pip install poetry
 poetry install
 ````
 
+To set up on and use in a Windows system:
+
+The easiest way is probably to install a WinPython distribution including python 3.11 and jupyter notebooks. 
+
+This version is tested to work with demo and exercise: https://github.com/winpython/winpython/releases/tag/7.0.20231126final
+
+- Download Winpython and extract to a folder of your choice
+- Open folder and run WinPython Command Prompt.exe
+- navigate to your github folder with the exercise by writing "cd C:\[....]\GitHub\hands-on-overfitting"
+- write "jupyter notebook" to start notebooks. Select the notebook in the browser window opening
+
+
