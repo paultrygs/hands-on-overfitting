@@ -1,40 +1,53 @@
 # Hands-on Overfitting
 
-**This learning material was developed for a coding event at Bouvet Norge.**
-
+**This learning material was originally developed for a coding event at Bouvet Norge.**
 
 This repository contains two primary sections:
 
-1. ``hands_on_demo.ipynb``: An interactive demo to learn about overfitting using simple models that are easy to visualize.
+1. ``hands_on_demo.ipynb``: An interactive demo for learning about overfitting using simple models that are easy to visualize.
 2. ``exercise.ipynb``: A coding exercise that complements the material from part 1.
 
 ## Prerequisites
 
-Make sure that you have **Python 3.11** installed.
+Make sure that **Python 3.11** is installed. 
 
+### Setup on a UNIX system
 
-To setup the project on a UNIX system:
+To set up the project on a UNIX system:
 
-- Navigate to the project root directory.
-- Run the following commands:
+1. Navigate to the project root directory.
+2. Run the following commands:
 
-````bash
+```bash
 python3.11 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install poetry
 poetry install
-````
+```
 
-To set up on and use in a Windows system:
+3. Now you can run the Jupyter Notebook with the command:
 
-The easiest way is probably to install a WinPython distribution including python 3.11 and jupyter notebooks. 
+```bash
+jupyter lab
+```
 
-This version is tested to work with demo and exercise: https://github.com/winpython/winpython/releases/tag/7.0.20231126final
+### Setup on a Windows system
 
-- Download Winpython and extract to a folder of your choice
-- Open folder and run WinPython Command Prompt.exe
-- navigate to your github folder with the exercise by writing "cd C:\[....]\GitHub\hands-on-overfitting"
-- write "jupyter notebook" to start notebooks. Select the notebook in the browser window opening
+For Windows system users, the easiest way is probably to install a WinPython distribution that already includes Python 3.11 and Jupyter Notebooks. 
+
+This version is tested to work with the demo and exercise: https://github.com/winpython/winpython/releases/tag/7.0.20231126final
+
+1. Download WinPython and extract the files to a folder of your choice.
+2. Open the extracted folder and run `WinPython Command Prompt.exe`.
+3. Navigate to your GitHub folder with the exercise by typing `cd C:\[....]\GitHub\hands-on-overfitting`.
+4. Type `jupyter notebook` to start Jupyter Notebooks. Select the appropriate notebook in the browser window that opens.
+
+Note: If you prefer Jupyter Lab over Jupyter Notebook, you can install it by typing `pip install jupyterlab` in your command terminal and then following similar steps to launch it as done with Jupyter Notebook.
 
 
+## Additional Information
+
+This material provides an introduction to overfitting using Jupyter Notebook. It covers overfitting concepts and demonstrates how you can use various techniques such as regularization to mitigate overfitting. The provided exercises will complement your understanding of overfitting and help strengthen your practical skills in performing tasks like model selection, parameter tuning, and prediction.
+
+We hope you find this material useful, and if you have any questions or issues setting up your environment or running the notebook, please don't hesitate to reach out for assistance.
